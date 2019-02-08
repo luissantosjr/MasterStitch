@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reusable Contact Form Using Bootstrap And PHP - reusable form</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js"></script>
+</head>
+<style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            li a:hover {
+                background-color: #111;
+            }
+</style>
+<body>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    <center>
+        <br />
+        <br />
+        <div class="container" style="width:100%; background-color:whitesmoke">
+            <img src="C:/Users/link/Desktop/Reusable/embroideryedinburg-1_orig.jpg" />
+
+            <br />
+            <h3> Screen Printing Work Order </h3>
+            <hr />
+
+            <form role="form" method="post" id="reused_form">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="name" style="float:left"> Company or Customer Name:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="name" style="float:left"> Job Name:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="email" style="float:left"> Ink Colors :</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="name" style="float:left"> Shirt Color :</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col">
+                        <div class="form-group">
+                            <h4> Adult Sizes:</h4> <br />
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Small :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Medium :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Large :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> X-Large :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> XX-Large :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> 3X-Large :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> 4X-Large :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <h4> Youth Sizes:</h4> <br />
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Youth XS :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Youth Small :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Youth Medium :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Youth Large :</label>
+                                </div>
+                                <div class="col">
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                            </div>
+
+                            <br />
+                            <br />
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email"> Attatch your design :</label>
+
+                                </div>
+                                <div class="col">
+                                    <div class="col">
+                                        <input id="fileupload" type="file" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <br />
+                <br />
+                <div class="form-group">
+                    <label for="name" style="float:left"> Special Instructions:</label>
+                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Please add as much details as possible" maxlength="6000" rows="7"></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Submit &rarr;</button>
+                <br />
+                <br />
+                <br />
+                <br />
+            </form>
+            <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Sent your message successfully!</h3> </div>
+            <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+        </div>
+    </center>
+</body>
+</html>
